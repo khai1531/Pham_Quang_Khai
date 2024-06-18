@@ -60,7 +60,7 @@ staff_combobox.place(x = 480, y = 50)
 type_combobox = CTkComboBox(window,values = ['','Peugeot Scooter', 'Scoopy', 'SH','Air Blade','SH Mode','Vision'], fg_color = 'lightpink',border_color = 'hotpink', dropdown_fg_color = 'lightpink',corner_radius = 32)
 type_combobox.place(x = 180, y = 85)
 color_combobox = CTkComboBox(window,values = ['','Red', 'Blue', 'Pink', 'Black', 'White', 'Green'], fg_color = 'lightpink',border_color = 'hotpink', dropdown_fg_color = 'lightpink',corner_radius = 32)
-color_combobox.place(x = 280, y = 155)
+color_combobox.place(x = 300, y = 155)
 #Date_Entry
 day_entry = DateEntry(window,background='salmon',date_pattern='MM/dd/yyyy')
 day_entry.place(x = 180, y = 50)
